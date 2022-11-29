@@ -1,0 +1,145 @@
+[
+    {
+        "name": "Sharp-Tongued and Unsociable",
+        "star": 1,
+        "type": "cool",
+        "date": 190430,
+        "event": "Initial card",
+        "skill": "40% score boost for 5 seconds",
+        "skillType": "score",
+        "stats": 7578,
+        "image": "images/Sharp-Tongued and Unsociable.png"
+    },
+    {
+        "name": "Wonder Wand",
+        "star": 2,
+        "type": "mysterious",
+        "date": 201031,
+        "event": "Wonder Halloween",
+        "skill": "All GREATs will become PERFECTs for 6 seconds; 30% score boost for 5 seconds",
+        "skillType": "accuracy",
+        "stats": 17135,
+        "image": "images/Wonder Wand.png"
+    },
+    {
+        "name": "Animal Cotton Candy",
+        "star": 3,
+        "type": "mysterious",
+        "date": 201210,
+        "event": "Kamiyama High Festival!",
+        "skill": "Recover 400 life; 60% score boost for 5 seconds",
+        "skillType": "life",
+        "stats": 31737,
+        "image": "images/Animal Cotton Candy.png"
+    },
+    {
+        "name": "I Thought That I Was Gonna Die...",
+        "star": 3,
+        "type": "happy",
+        "date": 220112,
+        "event": "Popin My Heart",
+        "skill": "80% score boost for 5 seconds",
+        "skillType": "score",
+        "stats": 28169,
+        "image": "images/I Thought I Was Gonna Die.png"
+    },
+    {
+        "name": "Wonderlands x Showtime",
+        "star": 2,
+        "type": "cool",
+        "date": 190430,
+        "event": "Release Celebration Gacha",
+        "skill": "Recover 300 life; 30% score boost for 5 seconds",
+        "skillType": "life",
+        "stats": 18325,
+        "image": "images/Wonderlands x Showtime.png"
+    },
+    {
+        "name": "Backstage Operator",
+        "star": 3,
+        "type": "pure",
+        "date": 190430,
+        "event": "Release Celebration Gacha",
+        "skill": "All GOODs and higher will become PERFECTs for 6.5 seconds; 60% score boost for 5 seconds",
+        "skillType": "accuracy",
+        "stats": 30269,
+        "image": "images/Backstage Operator.png"
+    },
+    {
+        "name": "Gift From Above",
+        "star": 4,
+        "type": "cute",
+        "date": 201220,
+        "event": "Wonder Carol Gacha",
+        "skill": "120% score boost for 5 seconds",
+        "skillType": "score",
+        "stats": 31743,
+        "image": "images/Gift From Above.png"
+    },
+    {
+        "name": "The Confidence You Gave Me",
+        "star": 4,
+        "type": "cool",
+        "date": 210611,
+        "event": "Welcome Wonderland Gacha",
+        "skill": "130% score boost for 5 seconds (PERFECTs only)",
+        "skillType": "score",
+        "stats": 31743,
+        "image": "images/The Confidence You Gave Me.png"
+    },
+    {
+        "name": "Celebrate With Fireworks",
+        "star": 4,
+        "type": "pure",
+        "date": 210820,
+        "event": "Hear My Song! Dreaming Mermaid Gacha",
+        "skill": "All BADs and higher will become PERFECTs for 7 seconds; 100% score boost for 5 seconds",
+        "skillType": "accuracy",
+        "stats": 34596,
+        "image": "images/Celebrate With Fireworks.png"
+    },
+    {
+        "name": "A Shy Visitor",
+        "star": 4,
+        "type": "happy",
+        "date": 211021,
+        "event": "",
+        "skill": "130% score boost for 5 seconds (PERFECTs only)",
+        "skillType": "score",
+        "stats": 31742,
+        "image": "images/A Shy Visitor.png"
+    },
+    {
+        "name": "The Young Squirrels' Invitation",
+        "star": 4,
+        "type": "cute",
+        "date": 220410,
+        "event": "",
+        "skill": "All BADs and higher become PERFECTs for 7 seconds; 100% score boost for 5 seconds",
+        "skillType": "accuracy",
+        "stats": 35045,
+        "image": "images/The Young Squirrels' Invitation.png"
+    },
+    {
+        "name": "Appreciation for Playing Together",
+        "star": 4,
+        "type": "happy",
+        "date": 220620,
+        "event": "",
+        "skill": "120% score boost for 5 seconds",
+        "skillType": "score",
+        "stats": 31743,
+        "image": "images/Appreciation for Playing Together.png"
+    },
+    {
+        "name": "Childhood Friend's Gaze",
+        "star": 4,
+        "type": "cool",
+        "date": 221020,
+        "event": "",
+        "skill": "All BADs and higher will become PERFECTs for 7 seconds; 100% score boost for 5 seconds",
+        "skillType": "accuracy",
+        "stats": 37593,
+        "image": "images/Childhood Friend's Gaze.png"
+    }
+]
