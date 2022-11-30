@@ -21,47 +21,53 @@ function App() {
   }));
 
   const changeSortType = (type) => {
-    if (type !== sortType) {
-      setSortType(type);
-      if (type === "release") {
-        setData([...(neneData.filter((item) => {
-          return ((cardType === "all") ? 1 : item.type === cardType) 
-          && 
-          ((skillType === "all") ? 1 : item.skillType === skillType) ;
-        })
-        .sort((a, b) => {
-          return a.date - b.date;
-        }))])
-      } else {
-        setData([...(neneData.filter((item) => {
-          return ((cardType === "all") ? 1 : item.type === cardType) 
-          && 
-          ((skillType === "all") ? 1 : item.skillType === skillType) ;
-        })
-        .sort((a, b) => {
-          return a.star - b.star;
-        }))])
-      }
+    setSortType(type);
+    if (type === "release") {
+      setData([...(data.sort((a, b) => {
+        return a.date - b.date;
+      }))])
+    } else {
+      setData([...(data.sort((a, b) => {
+        return a.star - b.star;
+      }))])
     }
   }
   const changeCardType = (type) => {
     if (type !== cardType) {
       setCardType(type);
-      setData(neneData.filter((item) => {
+      const newData = neneData.filter((item) => {
         return ((type === "all") ? 1 : item.type === type) 
         && 
         ((skillType === "all") ? 1 : item.skillType === skillType) ;
-      }))
+      });
+      if (sortType === "release") {
+        setData([...(newData.sort((a, b) => {
+          return a.date - b.date;
+        }))])
+      } else {
+        setData([...(newData.sort((a, b) => {
+          return a.star - b.star;
+        }))])
+      }
     }
   }
   const changeSkillType = (type) => {
     if (type !== skillType) {
       setSkillType(type);
-      setData(neneData.filter((item) => {
+      const newData = neneData.filter((item) => {
         return ((cardType === "all") ? 1 : item.type === cardType) 
         && 
         ((type === "all") ? 1 : item.skillType === type) ;
-      }))
+      });
+      if (sortType === "release") {
+        setData([...(newData.sort((a, b) => {
+          return a.date - b.date;
+        }))])
+      } else {
+        setData([...(newData.sort((a, b) => {
+          return a.star - b.star;
+        }))])
+      }
     }
   }
 
