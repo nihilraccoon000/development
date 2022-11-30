@@ -24,13 +24,21 @@ function App() {
     if (type !== sortType) {
       setSortType(type);
       if (type === "release") {
-        console.log("if");
-        setData([...(neneData.sort((a, b) => {
+        setData([...(neneData.filter((item) => {
+          return ((cardType === "all") ? 1 : item.type === cardType) 
+          && 
+          ((skillType === "all") ? 1 : item.skillType === skillType) ;
+        })
+        .sort((a, b) => {
           return a.date - b.date;
         }))])
       } else {
-        console.log("else");
-        setData([...(neneData.sort((a, b) => {
+        setData([...(neneData.filter((item) => {
+          return ((cardType === "all") ? 1 : item.type === cardType) 
+          && 
+          ((skillType === "all") ? 1 : item.skillType === skillType) ;
+        })
+        .sort((a, b) => {
           return a.star - b.star;
         }))])
       }
